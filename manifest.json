@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "minimum_chrome_version": "9",
+  "name": "NSWDEV navigation helper",
+  "description": "This extension changes NSWDEV-1 to https://jira.westernacher.com/browse/NSWDEV-1",
+  "version": "1.0",
+  "omnibox": {
+    "keyword": "n"
+  },
+  "background": {
+      "scripts": ["background.js"]
+    }
+}
