@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "minimum_chrome_version": "9",
   "name": "NSWDEV navigation helper",
-  "description": "This uses chromes omnibox feature to quickly open an Atlassian Jira issue. Type `n` + `tab/spacebar` + `ticket-number` (e.g. 2247) + `enter` then the extension will open https://jira.westernacher.com/browse/NSWDEV-2247",
+  "description": "Type `n` + `tab|space` + `ticket-number` (e.g. 2247) + `enter` then it will open https://jira.westernacher.com/browse/NSWDEV-2247",
   "version": "1.0.2",
   "omnibox": {
     "keyword": "n"
